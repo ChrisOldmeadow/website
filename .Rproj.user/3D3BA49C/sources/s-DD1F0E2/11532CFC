@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574399213240.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1812611559",
+    "id" : "11532CFC",
+    "lastKnownWriteTime" : 1574409960,
+    "last_content_update" : 1574409960078,
+    "path" : "~/Dropbox/Website/CReDITSS/data/about.yml",
+    "project_path" : "data/about.yml",
+    "properties" : {
+        "cursorPosition" : "13,17",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

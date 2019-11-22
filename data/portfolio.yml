@@ -1,0 +1,36 @@
+enable : true
+heading : Our
+headingSpan : Works
+filterList :
+  - filterType : Study design
+    filterTitle : Design
+    
+  - filterType : Statistical Analyses
+    filterTitle : Analysis
+    
+  - filterType : REDCap databses 
+    filterTitle : Database
+
+portfolioItem :
+  - types : Design
+    image : images/portfolio/portfolio-1.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : Analysis
+    image : images/portfolio/portfolio-2.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Sound system
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : REDCap
+    image : images/portfolio/portfolio-3.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Clock Product
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+ 

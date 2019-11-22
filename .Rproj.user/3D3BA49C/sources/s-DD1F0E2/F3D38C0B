@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574399204436.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3751333413",
+    "id" : "F3D38C0B",
+    "lastKnownWriteTime" : 1574408943,
+    "last_content_update" : 1574408943804,
+    "path" : "~/Dropbox/Website/CReDITSS/data/skill.yml",
+    "project_path" : "data/skill.yml",
+    "properties" : {
+        "cursorPosition" : "22,4",
+        "scrollLine" : "1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

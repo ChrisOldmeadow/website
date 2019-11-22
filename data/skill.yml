@@ -1,0 +1,26 @@
+enable : true
+heading : Our
+headingSpan : Skills
+title : We’ve skilled in wide range of biostatistics, visualisation, and machine learning techniques.
+content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
+image : images/about/company-growth.png
+skillItem :
+  - itemNumber : 01-
+    itemName :  Clinical Trial Design
+    itemPercent : 90%
+    
+  - itemNumber : 02-
+    itemName :  Bayesian Analysis
+    itemPercent : 70%
+    
+  - itemNumber : 03-
+    itemName :  Dynamic Simulation modelling
+    itemPercent : 80%
+    
+  - itemNumber : 04-
+    itemName :  Time Series
+    itemPercent : 95%
+    
+  - itemNumber : 05-
+    itemName :  Psychometrics
+    itemPercent : 75%
