@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574412262639.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "123683683",
+    "id" : "3A2B72F0",
+    "lastKnownWriteTime" : 1574412268,
+    "last_content_update" : 1574412268832,
+    "path" : "~/Dropbox/Website/CReDITSS/data/blog.yml",
+    "project_path" : "data/blog.yml",
+    "properties" : {
+        "cursorPosition" : "0,14",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

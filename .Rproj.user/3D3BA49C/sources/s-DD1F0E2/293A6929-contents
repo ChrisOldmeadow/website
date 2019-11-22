@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-us" scroll-behavior="smooth"><head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Responsive Multipurpose Parallax HTML5 Template">
-    <meta name="author" content="Themefisher">
+    <meta name="description" content="This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.">
+    <meta name="author" content="">
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.59.1" />
 
-    <title>Authors of posts on the blog „Clinical Research Design, IT, and Statistical Services"</title>
+    <title>A Plain Markdown Post | Posts</title>
 
 
     <!-- Favicon -->
@@ -31,8 +32,6 @@
     <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
     <!-- Custom CSS -->
     
-    <link rel="stylesheet" href="/css/custom.css">
-    
 
 </head>
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="52">
@@ -44,8 +43,8 @@
 
                 <!-- logo -->
                 <a class="navbar-brand logo" href="/">
-                        <img src="/images/hmri.png" alt="Logo" />
-                        <span class="pl-2 font-weight-bold">Clinical Research Design, IT, and Statistical Services</span>
+                        <img src="" alt="Logo" />
+                        <span class="pl-2 font-weight-bold">CReDITSS</span>
                 </a>
                 <!-- /logo -->
 
@@ -59,17 +58,7 @@
                 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto navigation-menu">
-                                <li class="nav-item"><a class="nav-link" data-scroll href="/#body">Home</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="/#about">About Us</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="/#services">Service</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="/#portfolio">Portfolio</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="/#our-team">Team</a></li>
-                                
-                                <li class="nav-item"><a class="nav-link" data-scroll href="/#contact-us">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="/#body"></a></li>
                                 
                         </ul>
                 </div>
@@ -81,36 +70,59 @@
 <!-- End Fixed Navigation -->
 
 
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title text-center">
-                        <h2>   Author&#39;s <span class="color">  posts </h2>
-                            <div class="border-meghna"></div>
-                        </div>
-                    </div>
-                    
-                    
-<article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
-    <div class="post-block">
-        <div class="media-wrapper">
-            <img src="/images/blog/meghna.png" alt="post-image" class="img-fluid">
-        </div>
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <h1>A Plain Markdown Post</h1>
+                <ul class="list-inline mb-50">
+                    <li class="list-inline-item"><a href="/author/"></a></li>
+                    <li class="list-inline-item">Friday, Dec 30, 2016</li>
+                </ul>
+                
+            </div>
+            <div class="col-lg-8 offset-lg-2">
+                <div class="post-single-content">
+                    <p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
 
-        <div class="content">
-            <h3><a href="/blog/installation/">How To Setup Meghna Hugo</a></h3>
-            <p>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer.</p>
-            <a class="btn btn-transparent" href="/blog/installation/">Read more</a>
-        </div>
-    </div>
-</article>
+<ol>
+<li>You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (<code>```{r}</code>);</li>
+<li>A plain Markdown post is rendered through <a href="https://gohugo.io/overview/configuration/">Blackfriday</a>, and an R Markdown document is compiled by <a href="http://rmarkdown.rstudio.com"><strong>rmarkdown</strong></a> and <a href="http://pandoc.org">Pandoc</a>.</li>
+</ol>
+
+<p>There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Write an R package.</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Write a book.</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> &hellip;</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Profit!</label></li>
+</ul>
+
+<p>Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (<a href="https://github.com/yihui/hugo-lithium">hugo-lithium</a>) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: <code>`$ $`</code>; display style: <code>`$$ $$`</code>), e.g., <code>$S_n = \sum_{i=1}^n X_i$</code>.<sup class="footnote-ref" id="fnref:This-is-because"><a href="#fn:This-is-because">1</a></sup> For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.</p>
+
+<p>When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the <code>ext</code> argument of the function <code>blogdown::new_post()</code>, e.g.</p>
+
+<pre><code class="language-r">blogdown::new_post(&quot;Post Title&quot;, ext = '.Rmd')
+</code></pre>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:This-is-because">This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., <code>\$50 and $100</code> renders &ldquo;\$50 and $100&rdquo;. <a class="footnote-return" href="#fnref:This-is-because"><sup>[return]</sup></a></li>
+</ol>
+</div>
 
                     
+                    
+
                 </div>
             </div>
         </div>
+    </div>
 </section>
+
 
         </div><!-- end Contact Area -->
 <footer id="footer" class="bg-one">
@@ -122,30 +134,16 @@
 				<div class="social-icon">
 					<ul class="list-inline">
 						
-						<li class="list-inline-item"><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-						
-						<li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-						
-						<li class="list-inline-item"><a href="#"><i class="tf-ion-social-google-outline"></i></a></li>
-						
-						<li class="list-inline-item"><a href="#"><i class="tf-ion-social-youtube"></i></a></li>
-						
-						<li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-						
-						<li class="list-inline-item"><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-						
-						<li class="list-inline-item"><a href="#"><i class="tf-ion-social-pinterest-outline"></i></a></li>
-						
 					</ul>
 				</div>
 
 				<!-- copyright -->
 				<div class="copyright text-center">
 					<a href="/">
-						<img src="/images/hmri.png" alt="Meghna" />
+						<img src="" alt="Meghna" />
 					</a>
 					<br>
-					<p>Design And Developed by <a href="http://www.themefisher.com">  Themefisher  </a>. Copyright &copy; <script>
+					<p>Design And Developed by <a href="/">  </a>. Copyright &copy; <script>
 							document.write(new Date().getFullYear())
 						</script>. All Rights Reserved.</p>
 				</div>
@@ -168,7 +166,7 @@
 		<!-- Magnific popup -->
 		<script type="text/javascript" src="/plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 		<!-- Google Map API -->
-		<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+		<script type="text/javascript"  src="/"></script>
 		<!-- Number Counter Script -->
 		<script type="text/javascript" src="/plugins/count-to/jquery.countTo.js"></script>
 		<!-- wow.min Script -->
@@ -187,7 +185,7 @@
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-				ga('create', 'Your ID', 'auto');
+				ga('create', '', 'auto');
 				ga('send', 'pageview');
 		</script>
 </body>
