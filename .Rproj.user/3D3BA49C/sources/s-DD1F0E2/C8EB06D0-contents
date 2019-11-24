@@ -12,7 +12,7 @@ serviceItem :
     
   - icon : tf-ion-ios-grid-view
     title : REDCap 
-    content : Longitudinal, randomisation modules, privacy (GCP), 
+    content : Longitudinal, randomisation modules, privacy (GCP).  
     
   - icon : tf-ion-speedometer
     title : Dashboards

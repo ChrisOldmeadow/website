@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1315414797",
+    "hash" : "0",
     "id" : "B349B68A",
-    "lastKnownWriteTime" : 1574410874,
-    "last_content_update" : 1574410874914,
+    "lastKnownWriteTime" : 1574560948,
+    "last_content_update" : 1574560948037,
     "path" : "~/Dropbox/Website/CReDITSS/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "62,2",
-        "scrollLine" : "57"
+        "cursorPosition" : "15,17",
+        "scrollLine" : "1"
     },
     "read_only" : false,
     "read_only_alternatives" : [

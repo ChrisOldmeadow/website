@@ -13,7 +13,7 @@ summaryLength = 10
 # Menu
 [menu]
     [[menu.nav]]
-    name = "About Us"
+    name = "About"
     URL = "about"
     weight = 2
 
@@ -54,8 +54,8 @@ custom_css = ["css/custom.css"]
     enable = true
     bgImage = "images/creditss.jpg"
     icon = "tf-ion-play"
-    heading = "Rigour, quality, reliability"
-    content= "Our vision is to provide innovative and reliable statistical services for medical researchers accross the entire spectrum of translational research"
+    heading = "CReDITSS"
+    content= "Our mission is to provide innovative and reliable statistical services for medical researchers accross the entire spectrum of translational research"
     btn = true
     btnText="Explore Us"
     btnURL="#services"
